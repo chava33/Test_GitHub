@@ -1,0 +1,35 @@
+ssenthuran@CI0000011165543:~/android-studio/bin$ sudo ./studio.sh 
+sudo service network-manager restart  	 
+disk space
+df -h --total
+ 
+    show top 10 biggest subdirs in the current dir.
+du -sk * | sort -nr | head -10
+
+sudo service networking restart    
+  
+   ls -la
+   lsb_release -a
+    file /sbin/init  -->find 64bit
+   
+
+ ctrl+H for hidden file
+ 
+ adb -d bugreport > myBugReport.txt
+ 1573  adb pull /sdcard/dmesg.txt
+
+ 1578  adb kill-server
+ 1579  adb start-server
+
+adb logcat -c
+adb logcat > mylogcat.txt
+
+adb logcat -d  -b radio | tee mylogcatRadio.txt
+
+builder@Batti:~/caf_qc_hlos$ adb shell 
+shell@msm8974:/ $ su
+shell@msm8974:/ # dmesg > /sdcard/dmesg.txt
+shell@msm8974:/ # exit
+shell@msm8974:/ $ exit
+builder@Batti:~/caf_qc_hlos$ adb pull /sdcard/dmesg.txt 
+
